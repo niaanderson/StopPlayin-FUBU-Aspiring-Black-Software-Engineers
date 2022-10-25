@@ -217,3 +217,87 @@ h3{
 .resource-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
+
+/*-- page 1 footer --*/ 
+.footer{
+    margin: 100px 0 0 0;
+    background: #333;
+    padding: 100px 100px;
+}
+.footer .main-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+.main-container div h4{
+    color: blue;
+    font-size: 25px;
+    margin: 3px 0;
+}
+main-container div li{
+    cursor: pointer;
+    margin: 3px 0;
+}
+
+/*-- page 2 footer --*/ 
+.footer-community{
+    margin: 100px 0 0 0;
+    background: #333;
+    padding: 100px 100px;
+}
+.footer-community .main-container-community{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+.main-container-community div h4{
+    color: blue;
+    font-size: 25px;
+    margin: 3px 0;
+}
+.main-container-community div li{
+    cursor: pointer;
+    margin: 3px 0;
+}
+
+/*-- page 3 footer --*/ 
+.footer-form{
+    margin: 100px 0 0 0;
+    background: #333;
+    padding: 100px 100px;
+}
+.footer-form .main-container-form{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+.main-container-form div h4{
+    color: blue;
+    font-size: 25px;
+    margin: 3px 0;
+}
+.main-container-form div li{
+    cursor: pointer;
+    margin: 3px 0;
+}
+
+/*-- page 4 footer --*/ 
+.footer-library{
+    margin: 100px 0 0 0;
+    background: #333;
+    padding: 100px 100px;
+}
+.footer-library .main-container-library{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+}
+.main-container-library div h4{
+    color: blue;
+    font-size: 25px;
+    margin: 3px 0;
+}
+.main-container-library div li{
+    cursor: pointer;
+    margin: 3px 0;
+}
